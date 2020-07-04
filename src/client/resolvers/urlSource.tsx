@@ -1,7 +1,7 @@
 import { useMutation, useQuery } from '@apollo/react-hooks'
 import type { ApolloCache } from 'apollo-cache'
 import gql from 'graphql-tag'
-import { dropUnset } from 'utils/dropUnset'
+import { dropUnset } from 'src/utils/dropUnset'
 
 type UrlSourceDetails = {
   source: 'jump' | 'scroll'

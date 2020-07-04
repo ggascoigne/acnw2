@@ -1,10 +1,9 @@
 ///<reference types="webpack-env" />
-import 'assets/scss/material-kit-react.scss?v=1.8.0'
 import 'react-app-polyfill/ie11'
 
 import { ApolloProvider } from '@apollo/react-hooks'
-import client from 'client/client'
-import { Auth0Provider } from 'components/Acnw'
+import client from 'src/client/client'
+import { Auth0Provider } from 'src/components/Acnw'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
@@ -41,9 +40,15 @@ const render = (Component: React.ComponentType) =>
 
 render(App)
 
-if ((module as NodeModule).hot) {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  ;(module as NodeModule).hot!.accept('./App', () => render(require('./App').default))
+// if ((module as NodeModule).hot) {
+//   // eslint-disable-next-line @typescript-eslint/no-var-requires
+//   ;(module as NodeModule).hot!.accept('./App', () => render(require('./App').default))
+// }
+
+// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
+// Learn more: https://www.snowpack.dev/#hot-module-replacement
+if (import.meta.hot) {
+  import.meta.hot.accept();
 }
 
-registerServiceWorker()
+// registerServiceWorker()

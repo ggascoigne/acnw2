@@ -9,10 +9,10 @@ import {
   SelectField,
   TextField,
   TextFieldProps,
-} from 'components/Acnw'
+} from 'src/components/Acnw'
 import { Form, Formik, FormikHelpers } from 'formik'
 import React from 'react'
-import Yup from 'utils/Yup'
+import Yup from 'src/utils/Yup'
 
 import { GameFieldsFragment, GameGmsFragment, useGetSlotsQuery } from '../../../client'
 import { LookupField } from '../../../components/Acnw/Form/LookupField'

@@ -1,5 +1,5 @@
 import Typography from '@material-ui/core/Typography'
-import Quote from 'components/MaterialKitReact/Typography/Quote'
+import Quote from 'src/components/MaterialKitReact/Typography/Quote'
 import React from 'react'
 
 export const GraphQLError = ({ error }) => {

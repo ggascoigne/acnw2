@@ -1,4 +1,4 @@
-import { useGetLookupValuesQuery } from 'client'
+import { useGetLookupValuesQuery } from 'src/client'
 import * as React from 'react'
 
 import { GraphQLError } from '../GraphQLError'

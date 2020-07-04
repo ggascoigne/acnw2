@@ -3,8 +3,8 @@ import {
   useDeleteLookupValueMutation,
   useGetLookupsLazyQuery,
   useGetLookupsQuery,
-} from 'client'
-import { GraphQLError, Loader, Page, Table } from 'components/Acnw'
+} from 'src/client'
+import { GraphQLError, Loader, Page, Table } from 'src/components/Acnw'
 import React, { MouseEventHandler, useState } from 'react'
 import type { Column, Row, TableInstance } from 'react-table'
 

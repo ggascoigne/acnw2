@@ -1,8 +1,8 @@
-import { useUrlSourceMutation, useUrlSourceQuery } from 'client/resolvers/urlSource'
-import { Page } from 'components/Acnw/Page'
+import { useUrlSourceMutation, useUrlSourceQuery } from 'src/client/resolvers/urlSource'
+import { Page } from 'src/components/Acnw/Page'
 import jump from 'jump.js'
 import debounce from 'lodash/debounce'
-import { PastConsPageGameList } from 'pages/PastCons/PastConsPageGameList'
+import { PastConsPageGameList } from 'src/pages/PastCons/PastConsPageGameList'
 import React, { useCallback, useEffect, useState } from 'react'
 import { useHistory, useParams } from 'react-router'
 

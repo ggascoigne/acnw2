@@ -1,15 +1,8 @@
 import ApolloClient, { InMemoryCache } from 'apollo-boost'
 import type { Operation } from 'apollo-link'
-import { gameFilterStore, urlSourceStore } from 'client/resolvers'
-import assignIn from 'lodash/fp/assignIn'
-import flow from 'lodash/fp/flow'
-import map from 'lodash/fp/map'
-import reduce from 'lodash/fp/reduce'
+import { gameFilterStore, urlSourceStore } from 'src/client/resolvers'
 
 import type { Auth0ContextType } from '../components/Acnw/Auth/Auth0'
-
-// @ts-ignore
-const reduceWithDefault = reduce.convert({ cap: false })
 
 // this pattern is based upon https://hackernoon.com/setting-up-apollo-link-state-for-multiple-stores-4cf54fdb1e00
 
@@ -27,13 +20,10 @@ const reduceWithDefault = reduce.convert({ cap: false })
  * // returns {x: true, y: "foo", z: 123}
  * mergeGet("defaults")(objectList)
  */
-const mergeGet = (attributeName: any) =>
-  flow(
-    // pick a single attribute from each object
-    map(attributeName),
-    // merge all values into a single object
-    reduceWithDefault(assignIn, {})
-  )
+export const mergeGet = (attributeName: string) => (input: any[]) =>
+  input.reduce((prev, curr) => {
+    return { ...prev, ...curr[attributeName] }
+  }, {})
 
 const STORES = [gameFilterStore, urlSourceStore]
 

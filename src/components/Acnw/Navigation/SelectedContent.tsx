@@ -1,5 +1,5 @@
-import { ErrorBoundary } from 'components/Acnw/ErrorBoundary'
-import { NotFound } from 'pages'
+import { ErrorBoundary } from 'src/components/Acnw/ErrorBoundary'
+import { NotFound } from 'src/pages'
 import React, { useMemo } from 'react'
 import { Route, Switch } from 'react-router-dom'
 

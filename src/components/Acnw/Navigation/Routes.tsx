@@ -1,4 +1,4 @@
-import { AboutAmberconNw, Credits, GraphiQLPage, PastConsGamesPage, PastConsPage, Welcome } from 'pages'
+import { AboutAmberconNw, Credits, GraphiQLPage, PastConsGamesPage, PastConsPage, Welcome } from 'src/pages'
 import type React from 'react'
 
 import { Games, Lookups } from '../../../pages/Admin'

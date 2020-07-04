@@ -3,7 +3,7 @@ import { List, ListItem } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 // @material-ui/icons
 import Favorite from '@material-ui/icons/Favorite'
-import styles from 'assets/jss/material-kit-react/components/footerStyle'
+import styles from 'src/assets/jss/material-kit-react/components/footerStyle'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 // nodejs library to set properties for components

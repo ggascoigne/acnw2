@@ -1,25 +1,21 @@
 {
+  "extends": "@snowpack/app-scripts-react/tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": "src",
-    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "*": ["web_modules/.types/*", "*"]
+    },
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
     "allowJs": true,
-    "skipLibCheck": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
-    "rootDir": "src",
     "noErrorTruncation": true
   },
   "include": [
@@ -27,3 +23,4 @@
     "types"
   ]
 }
+

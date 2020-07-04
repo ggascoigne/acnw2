@@ -3,13 +3,13 @@ import Icon from '@material-ui/core/Icon'
 import { makeStyles } from '@material-ui/core/styles'
 import Tab from '@material-ui/core/Tab'
 import Tabs from '@material-ui/core/Tabs'
-import styles from 'assets/jss/material-kit-react/components/customTabsStyle'
+import styles from 'src/assets/jss/material-kit-react/components/customTabsStyle'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 // core components
-import Card from 'components/Card/Card'
-import CardBody from 'components/Card/CardBody'
-import CardHeader from 'components/Card/CardHeader'
+import Card from 'src/components/Card/Card'
+import CardBody from 'src/components/Card/CardBody'
+import CardHeader from 'src/components/Card/CardHeader'
 // nodejs library to set properties for components
 import PropTypes from 'prop-types'
 import React from 'react'

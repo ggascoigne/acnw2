@@ -3,7 +3,7 @@ import Input from '@material-ui/core/Input'
 import InputLabel from '@material-ui/core/InputLabel'
 // @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles'
-import styles from 'assets/jss/material-kit-react/components/customInputStyle'
+import styles from 'src/assets/jss/material-kit-react/components/customInputStyle'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 // nodejs library to set properties for components

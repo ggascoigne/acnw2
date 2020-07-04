@@ -1,11 +1,11 @@
-import { HasPermission } from 'components/Acnw/Auth'
-import { Loader } from 'components/Acnw/Loader'
+import { HasPermission } from 'src/components/Acnw/Auth'
+import { Loader } from 'src/components/Acnw/Loader'
 import React, { Suspense } from 'react'
 import { Redirect } from 'react-router-dom'
 
 import { Perms } from '../components/Acnw/Auth/PermissionRules'
 
-const GraphiQL = React.lazy(() => import('components/Acnw/GraphiQL/GraphiQL'))
+const GraphiQL = React.lazy(() => import('src/components/Acnw/GraphiQL/GraphiQL'))
 
 export const GraphiQLPage = () => {
   const loader = <Loader />

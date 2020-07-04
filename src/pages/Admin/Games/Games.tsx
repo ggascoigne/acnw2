@@ -1,4 +1,4 @@
-import { GraphQLError, Loader, Page, Table } from 'components/Acnw'
+import { GraphQLError, Loader, Page, Table } from 'src/components/Acnw'
 import React, { MouseEventHandler, useState } from 'react'
 import type { Column, Row, TableInstance } from 'react-table'
 

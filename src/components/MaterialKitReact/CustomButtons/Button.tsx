@@ -1,7 +1,7 @@
 import Button from '@material-ui/core/Button'
 // @material-ui/core components
 import makeStyles from '@material-ui/core/styles/makeStyles'
-import buttonStyle from 'assets/jss/material-kit-react/components/buttonStyle'
+import buttonStyle from 'src/assets/jss/material-kit-react/components/buttonStyle'
 import classNames from 'classnames'
 import React from 'react'
 

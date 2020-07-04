@@ -1,4 +1,4 @@
-import { useGetSingleLookupValueQuery } from 'client'
+import { useGetSingleLookupValueQuery } from 'src/client'
 import React from 'react'
 
 import { GraphQLError } from '../GraphQLError'

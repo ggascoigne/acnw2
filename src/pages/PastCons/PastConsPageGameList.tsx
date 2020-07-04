@@ -1,4 +1,4 @@
-import { GameList, GameListFull } from 'components/Acnw/GameList'
+import { GameList, GameListFull } from 'src/components/Acnw/GameList'
 import React from 'react'
 
 interface IPastConsPageGameList {

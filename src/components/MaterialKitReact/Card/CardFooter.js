@@ -1,7 +1,7 @@
 // @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles'
 // core components
-import styles from 'assets/jss/material-kit-react/components/cardFooterStyle'
+import styles from 'src/assets/jss/material-kit-react/components/cardFooterStyle'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 // nodejs library to set properties for components

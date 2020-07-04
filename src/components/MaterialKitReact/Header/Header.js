@@ -9,7 +9,7 @@ import Toolbar from '@material-ui/core/Toolbar'
 // @material-ui/icons
 import Menu from '@material-ui/icons/Menu'
 // core components
-import styles from 'assets/jss/material-kit-react/components/headerStyle'
+import styles from 'src/assets/jss/material-kit-react/components/headerStyle'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 // nodejs library to set properties for components

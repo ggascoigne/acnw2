@@ -1,4 +1,4 @@
-import { PastConsMenu } from 'pages/PastCons/PastConsMenu'
+import { PastConsMenu } from 'src/pages/PastCons/PastConsMenu'
 import React from 'react'
 
 interface ContextRoutes {

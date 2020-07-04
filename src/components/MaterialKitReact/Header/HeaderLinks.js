@@ -5,10 +5,10 @@ import { makeStyles } from '@material-ui/core/styles'
 import Tooltip from '@material-ui/core/Tooltip'
 // @material-ui/icons
 import { Apps, CloudDownload } from '@material-ui/icons'
-import styles from 'assets/jss/material-kit-react/components/headerLinksStyle'
-import Button from 'components/CustomButtons/Button'
+import styles from 'src/assets/jss/material-kit-react/components/headerLinksStyle'
+import Button from 'src/components/CustomButtons/Button'
 // core components
-import CustomDropdown from 'components/CustomDropdown/CustomDropdown'
+import CustomDropdown from 'src/components/CustomDropdown/CustomDropdown'
 /*eslint-disable*/
 import React from 'react'
 // react components for routing our app without refresh

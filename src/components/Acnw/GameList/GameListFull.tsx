@@ -1,4 +1,4 @@
-import { GameCard } from 'components/Acnw/GameCard'
+import { GameCard } from 'src/components/Acnw/GameCard'
 import React from 'react'
 
 import type { GameArray, SlotFieldsFragment } from '../../../client'

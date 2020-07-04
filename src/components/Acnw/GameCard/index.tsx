@@ -1,13 +1,13 @@
 import { makeStyles } from '@material-ui/core'
 import classNames from 'classnames'
-import type { GameFieldsFragment, GameGmsFragment } from 'client'
-import { GridContainer, GridItem, LookupValue } from 'components/Acnw'
-import Card from 'components/MaterialKitReact/Card/Card'
-import CardBody from 'components/MaterialKitReact/Card/CardBody'
-import CardHeader from 'components/MaterialKitReact/Card/CardHeader'
+import type { GameFieldsFragment, GameGmsFragment } from 'src/client'
+import { GridContainer, GridItem, LookupValue } from 'src/components/Acnw'
+import Card from 'src/components/MaterialKitReact/Card/Card'
+import CardBody from 'src/components/MaterialKitReact/Card/CardBody'
+import CardHeader from 'src/components/MaterialKitReact/Card/CardHeader'
 import React from 'react'
 import { Waypoint } from 'react-waypoint'
-import maskEmail from 'utils/maskEmail'
+import maskEmail from 'src/utils/maskEmail'
 
 const useStyles = makeStyles({
   card: {

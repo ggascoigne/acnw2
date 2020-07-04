@@ -1,4 +1,4 @@
-import { GameArray, SlotFieldsFragment, useGetGamesBySlotQuery } from 'client'
+import { GameArray, SlotFieldsFragment, useGetGamesBySlotQuery } from 'src/client'
 import React from 'react'
 
 import { GraphQLError } from '../GraphQLError'

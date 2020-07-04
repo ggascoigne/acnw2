@@ -1,5 +1,5 @@
 import Typography from '@material-ui/core/Typography'
-import { Page } from 'components/Acnw/Page'
+import { Page } from 'src/components/Acnw/Page'
 import React from 'react'
 
 export const AboutAmberconNw = () => (

@@ -2,7 +2,7 @@ import LinearProgress from '@material-ui/core/LinearProgress'
 // @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles'
 // core components
-import styles from 'assets/jss/material-kit-react/components/customLinearProgressStyle'
+import styles from 'src/assets/jss/material-kit-react/components/customLinearProgressStyle'
 // nodejs library to set properties for components
 import PropTypes from 'prop-types'
 import React from 'react'

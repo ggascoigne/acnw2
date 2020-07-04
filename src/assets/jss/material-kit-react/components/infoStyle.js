@@ -7,7 +7,7 @@ import {
   successColor,
   title,
   warningColor,
-} from 'assets/jss/material-kit-react.js'
+} from 'src/assets/jss/material-kit-react'
 
 const infoStyle = {
   infoArea: {

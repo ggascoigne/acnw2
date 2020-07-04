@@ -5,7 +5,7 @@ import Snack from '@material-ui/core/SnackbarContent'
 import { makeStyles } from '@material-ui/core/styles'
 // @material-ui/icons
 import Close from '@material-ui/icons/Close'
-import styles from 'assets/jss/material-kit-react/components/snackbarContentStyle'
+import styles from 'src/assets/jss/material-kit-react/components/snackbarContentStyle'
 // nodejs library to set properties for components
 import PropTypes from 'prop-types'
 import React from 'react'

@@ -1,7 +1,30 @@
 {
-  "extends": "../tsconfig.json",
-  "compilerOptions": {
-    "module": "commonjs",
-    "isolatedModules": false
-  }
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": { "*": ["*"] },
+      "target": "es5",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "commonjs",
+      "isolatedModules": false,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "noEmit": true,
+      "jsx": "preserve",
+      "rootDir": "src",
+      "noErrorTruncation": true
+    },
+    "include": [
+      "src",
+      "types"
+    ]
 }

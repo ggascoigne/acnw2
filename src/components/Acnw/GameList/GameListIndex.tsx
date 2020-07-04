@@ -2,7 +2,7 @@ import { Theme, Typography, makeStyles } from '@material-ui/core'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import createStyles from '@material-ui/core/styles/createStyles'
-import { useUrlSourceMutation } from 'client/resolvers/urlSource'
+import { useUrlSourceMutation } from 'src/client/resolvers/urlSource'
 import React from 'react'
 import { useHistory, useLocation } from 'react-router'
 

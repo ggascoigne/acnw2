@@ -1,10 +1,10 @@
 import { Theme, makeStyles } from '@material-ui/core/styles'
 import createStyles from '@material-ui/core/styles/createStyles'
-import { dangerColor } from 'assets/jss/material-kit-react'
-import Acnw, { Loader } from 'components/Acnw'
-import { useAuth } from 'components/Acnw/Auth'
-import { Banner } from 'components/Acnw/Banner'
-import { Page } from 'components/Acnw/Page'
+import { dangerColor } from 'src/assets/jss/material-kit-react'
+import Acnw, { Loader } from 'src/components/Acnw'
+import { useAuth } from 'src/components/Acnw/Auth'
+import { Banner } from 'src/components/Acnw/Banner'
+import { Page } from 'src/components/Acnw/Page'
 import React, { Suspense } from 'react'
 
 const ReactJson = React.lazy(() => import('@ggascoigne/react-json-view'))

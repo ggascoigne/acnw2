@@ -1,6 +1,6 @@
 import { Theme, makeStyles } from '@material-ui/core/styles'
 import createStyles from '@material-ui/core/styles/createStyles'
-import contentPageStyles from 'assets/jss/acnw/contentPage'
+import contentPageStyles from 'src/assets/jss/acnw/contentPage'
 import classNames from 'classnames'
 import React from 'react'
 

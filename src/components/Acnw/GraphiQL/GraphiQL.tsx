@@ -2,7 +2,7 @@ import 'graphiql/graphiql.css'
 
 import { createStyles, makeStyles } from '@material-ui/core'
 import classNames from 'classnames'
-import { Page } from 'components/Acnw/Page'
+import { Page } from 'src/components/Acnw/Page'
 import RealGraphiQL from 'graphiql'
 import GraphiQLExplorer from 'graphiql-explorer'
 import { GraphQLSchema, buildClientSchema, getIntrospectionQuery, parse } from 'graphql'

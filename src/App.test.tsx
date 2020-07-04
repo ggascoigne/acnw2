@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import wrapInApollo from 'utils/wrapInApollo'
-import wrapInRouter from 'utils/wrapInRouter'
+import wrapInApollo from 'src/utils/wrapInApollo'
+import wrapInRouter from 'src/utils/wrapInRouter'
 
 import { App } from './App'
 

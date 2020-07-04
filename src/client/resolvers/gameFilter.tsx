@@ -1,8 +1,8 @@
 import { useMutation, useQuery } from '@apollo/react-hooks'
 import type { ApolloCache } from 'apollo-cache'
-import type { SlotFieldsFragment } from 'client'
+import type { SlotFieldsFragment } from 'src/client'
 import gql from 'graphql-tag'
-import { dropUnset } from 'utils/dropUnset'
+import { dropUnset } from 'src/utils/dropUnset'
 
 type GameFilterDetails = {
   year: number

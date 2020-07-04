@@ -1,6 +1,6 @@
 import List from '@material-ui/core/List'
 import ListItemText from '@material-ui/core/ListItemText'
-import { HasPermission } from 'components/Acnw/Auth'
+import { HasPermission } from 'src/components/Acnw/Auth'
 import React from 'react'
 import { useLocation } from 'react-router'
 

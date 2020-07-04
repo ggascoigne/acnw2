@@ -1,6 +1,6 @@
 // @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles'
-import styles from 'assets/jss/material-kit-react/components/badgeStyle'
+import styles from 'src/assets/jss/material-kit-react/components/badgeStyle'
 // nodejs library to set properties for components
 import PropTypes from 'prop-types'
 import React from 'react'

@@ -1,5 +1,5 @@
-import { GameQuery, GameQueryChild } from 'components/Acnw/GameQuery'
-import { SlotSelector } from 'components/Acnw/SlotSelector'
+import { GameQuery, GameQueryChild } from 'src/components/Acnw/GameQuery'
+import { SlotSelector } from 'src/components/Acnw/SlotSelector'
 import React from 'react'
 
 import { SlotFieldsFragment, useGetSlotsQuery } from '../../../client'
