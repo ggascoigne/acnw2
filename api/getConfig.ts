@@ -17,8 +17,8 @@ export default withApiHandler([
       const admin = isAdmin(user)
       const database: Partial<DbConfig> = { ...config.database }
       delete database.password
-      const result = { ...config, database }
-      res.send(admin ? result : {})
+      const result = { ...config, database, admin }
+      res.send(result)
     } catch (err) {
       if (err instanceof JsonError) {
         res.status(err.status).send({
