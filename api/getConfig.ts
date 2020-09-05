@@ -12,6 +12,7 @@ import { withApiHandler } from './_standardHandler'
 export default withApiHandler([
   requireJwt,
   async (req: Request, res: Response) => {
+    console.log(`config = ${JSON.stringify(config, null, 2)}`)
     try {
       const { user } = req as any
       const admin = isAdmin(user)

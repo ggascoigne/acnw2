@@ -1,5 +1,5 @@
 import { audience, authDomain } from './_constants'
-
+// import { certs } from './_certs'
 const jwt = require('express-jwt')
 const fs = require('fs')
 
@@ -7,7 +7,10 @@ const fs = require('fs')
 // lambda that can't benefit from caching that just doesn't seem like a smart plan.
 // instead just put the public key on the filsysten
 
-const public_key = fs.readFileSync(`./shared/certs/${authDomain}.pem`).toString()
+// @ts-ignore
+// const public_key = certs[authDomain]
+
+const public_key = fs.readFileSync(`${__dirname}/../shared/certs/${authDomain}.pem`).toString()
 
 // note express-jwt doesn't just validate the token, it puts the decoded token on the request as `user`
 
